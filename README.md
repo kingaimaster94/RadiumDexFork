@@ -11,7 +11,7 @@ create a Raydium liquidity pool
 ### main function
 1. Create token listings
 2. A deposit / invest function, such that for each token listing people can buy in the presale.
-3. Create vesting schedule in a separate vesting contract (e.g. github.com/Bonfida/token-vesting - but can also be any different vesting contract, just a quick example I found)
+3. Create vesting schedule in a separate vesting contract.
 4. Automatic creation of Raydium AMM pool + OpenBook ID after the token sale is over.
 ****
 ### Requirements
