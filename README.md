@@ -39,6 +39,7 @@ This function should be used by admins to create new token listings on the launc
 * Cliff and Vesting period for purchased tokens (to be used when creating the vesting contract)
 * Time delay between end time and pool creation, 0 if empty - E.g. wait 3 days after pre-sale end to create pool
 * + any input needed for the pool creation
+****
 
 #### Update Listing - ADMIN ONLY:
 **Description:**\
@@ -50,6 +51,7 @@ This function should be used to update a token listing\
 * New Start time
 * New End time
 * New Time delay between end time and pool creation
+****
 
 #### Get Token listing
 **Params:**
@@ -63,12 +65,14 @@ This function should be used to update a token listing\
 * % of funds to be used for liquidity
 * Amount of tokens to be sold
 * Amount sold so far
+****
 
 #### List tokens
 **Description:**
 * This function should be used to list all tokens that are currently available for presale
 **Returns:**
 * List of Get Token Listing for all tokens
+****
 
 #### Purchase Tokens
 **Description:**\
@@ -80,21 +84,25 @@ This function should call a deployment of github.com/Bonfida/token-vesting to cr
 * Amount
 **Returns:**
 * Amount of tokens bought
+****
 
 #### Update Vesting Contract Address - ADMIN ONLY
 **Description:**\
 Update the contract address of the github.com/Bonfida/token-vesting deployment.\
 **Params:**
 * Contract Address
+****
 
 #### Add Admin - ADMIN ONLY
 **Description:**\
 Add admin users.\
 **Params:**
 * Contract Address
+****
 
 #### Remove Admin - ADMIN ONLY
 **Description:**\
 Remove admin users.\
 **Params:**
 * Contract Address
+****
