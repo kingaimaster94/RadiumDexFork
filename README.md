@@ -4,8 +4,8 @@ This is writed using Rust, Anchor, Typescript, Javascript.
 
 ## Radium AMM fork
 ### description
-deposit: X% --> treasury wallet, Y% --> liquidity.
-token sale set: manually set, time deadline, or hardcap hit
+deposit: X% --> treasury wallet, Y% --> liquidity.\
+token sale set: manually set, time deadline, or hardcap hit\
 create a Raydium liquidity pool
 
 ### main function
@@ -15,14 +15,14 @@ create a Raydium liquidity pool
 4. Automatic creation of Raydium AMM pool + OpenBook ID after the token sale is over.
 
 ### Requirements
-High quality, maintainable and production ready Solana Program (Smart Contract)
-Unit / Integration tests to make sure everything works accordingly
-Typescript SDK / lib file to interact with the contract
+High quality, maintainable and production ready Solana Program (Smart Contract)\
+Unit / Integration tests to make sure everything works accordingly\
+Typescript SDK / lib file to interact with the contract\
 
 ### Contract Functions
 #### Create Token listing - ADMIN ONLY
-**Description:**
-This function should be used by admins to create new token listings on the launchpad. Each new token will have an active presale, and will be listed on Raydium after the presale.
+**Description:**\
+This function should be used by admins to create new token listings on the launchpad. Each new token will have an active presale, and will be listed on Raydium after the presale.\
 **Params:**
 * Token Symbol (Used as identifier)
 * Token Address
@@ -41,8 +41,8 @@ This function should be used by admins to create new token listings on the launc
 * + any input needed for the pool creation
 
 #### Update Listing - ADMIN ONLY:
-**Description:**
-This function should be used to update a token listing
+**Description:**\
+This function should be used to update a token listing\
 **Params:**
 * New Treasury Address
 * New % of funds to be used for liquidity
@@ -52,7 +52,7 @@ This function should be used to update a token listing
 * New Time delay between end time and pool creation
 
 #### Get Token listing
-**Params:**
+**Params:**\
 * Token Symbol
 **Returns:**
 * Amount raised so far
@@ -65,14 +65,16 @@ This function should be used to update a token listing
 * Amount sold so far
 
 #### List tokens
-**Description:**
-* This function should be used to list all tokens that are currently available for presale
+**Description:**\
+* This function should be used to list all tokens that are currently available for presale\
 **Returns:**
 * List of Get Token Listing for all tokens
 
 #### Purchase Tokens
-**Description:**
-This function should be used to buy tokens in the presale. Part of the funds get send to the treasury wallet, part of the funds get locked for liquidity. This function should call a deployment of github.com/Bonfida/token-vesting to create a vesting schedule for the purchased tokens.
+**Description:**\
+This function should be used to buy tokens in the presale.\
+Part of the funds get send to the treasury wallet, part of the funds get locked for liquidity.\
+This function should call a deployment of github.com/Bonfida/token-vesting to create a vesting schedule for the purchased tokens.\
 **Params:**
 * Token Symbol
 * Amount
@@ -80,25 +82,19 @@ This function should be used to buy tokens in the presale. Part of the funds get
 * Amount of tokens bought
 
 #### Update Vesting Contract Address - ADMIN ONLY
-**Description:**
-Update the contract address of the github.com/Bonfida/token-vesting deployment.
+**Description:**\
+Update the contract address of the github.com/Bonfida/token-vesting deployment.\
 **Params:**
 * Contract Address
 
 #### Add Admin - ADMIN ONLY
-**Description:**
-Add admin users.
+**Description:**\
+Add admin users.\
 **Params:**
 * Contract Address
 
 #### Remove Admin - ADMIN ONLY
-**Description:**
-Remove admin users.
+**Description:**\
+Remove admin users.\
 **Params:**
 * Contract Address
-
-Description:
-Remove admin users.
-Params:
-* Contract Address
-
