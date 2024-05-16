@@ -66,7 +66,7 @@ This function should be used to update a token listing\
 
 #### List tokens
 **Description:**\
-* This function should be used to list all tokens that are currently available for presale\
+* This function should be used to list all tokens that are currently available for presale
 **Returns:**
 * List of Get Token Listing for all tokens
 
