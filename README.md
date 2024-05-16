@@ -1,12 +1,12 @@
 # RadiumDexFork
-This is Radium Dex fork on Solana.
-This is writed using Rust, Anchor, Typescript, Javascript.
+This is Radium Dex fork on Solana.\
+This is writed using Rust, Anchor, Typescript, Javascript.\
 
 ## Radium AMM fork
 ### description
-deposit: X% --> treasury wallet, Y% --> liquidity.\n
-token sale set: manually set, time deadline, or hardcap hit\n
-create a Raydium liquidity pool
+deposit: X% --> treasury wallet, Y% --> liquidity.\
+token sale set: manually set, time deadline, or hardcap hit\
+create a Raydium liquidity pool\
 
 ### main function
 1. Create token listings
@@ -15,15 +15,15 @@ create a Raydium liquidity pool
 4. Automatic creation of Raydium AMM pool + OpenBook ID after the token sale is over.
 
 ### Requirements
-High quality, maintainable and production ready Solana Program (Smart Contract)
-Unit / Integration tests to make sure everything works accordingly
-Typescript SDK / lib file to interact with the contract
+High quality, maintainable and production ready Solana Program (Smart Contract)\
+Unit / Integration tests to make sure everything works accordingly\
+Typescript SDK / lib file to interact with the contract\
 
 ### Contract Functions
 #### Create Token listing - ADMIN ONLY
 Description:
-This function should be used by admins to create new token listings on the launchpad. Each new token will have an active presale, and will be listed on Raydium after the presale.
-**Params:**
+This function should be used by admins to create new token listings on the launchpad. Each new token will have an active presale, and will be listed on Raydium after the presale.\
+Params:
 * Token Symbol (Used as identifier)
 * Token Address
 * Treasury address
