@@ -14,7 +14,7 @@ create a Raydium liquidity pool
 3. Create vesting schedule in a separate vesting contract (e.g. github.com/Bonfida/token-vesting - but can also be any different vesting contract, just a quick example I found)
 4. Automatic creation of Raydium AMM pool + OpenBook ID after the token sale is over.
 
-### Requirements:
+### Requirements
 High quality, maintainable and production ready Solana Program (Smart Contract)
 Unit / Integration tests to make sure everything works accordingly
 Typescript SDK / lib file to interact with the contract
@@ -23,7 +23,7 @@ Typescript SDK / lib file to interact with the contract
 #### Create Token listing - ADMIN ONLY
 Description:
 This function should be used by admins to create new token listings on the launchpad. Each new token will have an active presale, and will be listed on Raydium after the presale.
-Params:
+**Params:**
 * Token Symbol (Used as identifier)
 * Token Address
 * Treasury address
