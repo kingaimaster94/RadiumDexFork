@@ -52,8 +52,8 @@ This function should be used to update a token listing\
 * New Time delay between end time and pool creation
 
 #### Get Token listing
-**Params:**\
-* Token Symbol\
+**Params:**
+* Token Symbol
 **Returns:**
 * Amount raised so far
 * Amount tokens / USD still available in presale
