@@ -4,8 +4,8 @@ This is writed using Rust, Anchor, Typescript, Javascript.
 
 ## Radium AMM fork
 ### description
-deposit: X% --> treasury wallet, Y% --> liquidity. 
-token sale set: manually set, time deadline, or hardcap hit
+deposit: X% --> treasury wallet, Y% --> liquidity.\n
+token sale set: manually set, time deadline, or hardcap hit\n
 create a Raydium liquidity pool
 
 ### main function
