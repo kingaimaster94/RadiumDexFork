@@ -17,7 +17,7 @@ create a Raydium liquidity pool
 ### Requirements
 High quality, maintainable and production ready Solana Program (Smart Contract)\
 Unit / Integration tests to make sure everything works accordingly\
-Typescript SDK / lib file to interact with the contract\
+Typescript SDK / lib file to interact with the contract
 
 ### Contract Functions
 #### Create Token listing - ADMIN ONLY
@@ -53,7 +53,7 @@ This function should be used to update a token listing\
 
 #### Get Token listing
 **Params:**\
-* Token Symbol
+* Token Symbol\
 **Returns:**
 * Amount raised so far
 * Amount tokens / USD still available in presale
